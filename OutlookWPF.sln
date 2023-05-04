@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OutlookWPF", "OutlookWPF.csproj", "{DB4649FC-7703-4EE9-83ED-D6E292526C50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{DF48FE6F-81F9-49CF-A240-7B3BC5A5F604}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OutlookWPF.Modules.Mail", "..\Modules\OutlookWPF.Modules.Mail\OutlookWPF.Modules.Mail.csproj", "{1DDFF4ED-F1F3-4B96-A1B0-79985E1962FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OutlookWPF.Modules.Contacts", "..\Modules\OutlookWPF.Modules.Contacts\OutlookWPF.Modules.Contacts.csproj", "{090891BC-1713-40EA-9FBB-757EB5D7BE6D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OutlookWPF.Modules.Calendar", "..\Modules\OutlookWPF.Modules.Calendar\OutlookWPF.Modules.Calendar.csproj", "{BF2E80FF-2530-4862-B9DF-5E959EC472BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OutlookWPF.Core", "..\OutlookWPF.Core\OutlookWPF.Core.csproj", "{44A8F29C-AD5C-43D1-AE31-C1288CF4BAD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutlookWPF.Business", "..\OutlookWPF.Business\OutlookWPF.Business.csproj", "{DAB7294B-54D7-49FB-B238-B671701E1E62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB4649FC-7703-4EE9-83ED-D6E292526C50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB4649FC-7703-4EE9-83ED-D6E292526C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB4649FC-7703-4EE9-83ED-D6E292526C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB4649FC-7703-4EE9-83ED-D6E292526C50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DDFF4ED-F1F3-4B96-A1B0-79985E1962FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DDFF4ED-F1F3-4B96-A1B0-79985E1962FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DDFF4ED-F1F3-4B96-A1B0-79985E1962FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DDFF4ED-F1F3-4B96-A1B0-79985E1962FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{090891BC-1713-40EA-9FBB-757EB5D7BE6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{090891BC-1713-40EA-9FBB-757EB5D7BE6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{090891BC-1713-40EA-9FBB-757EB5D7BE6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{090891BC-1713-40EA-9FBB-757EB5D7BE6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF2E80FF-2530-4862-B9DF-5E959EC472BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF2E80FF-2530-4862-B9DF-5E959EC472BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF2E80FF-2530-4862-B9DF-5E959EC472BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF2E80FF-2530-4862-B9DF-5E959EC472BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44A8F29C-AD5C-43D1-AE31-C1288CF4BAD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44A8F29C-AD5C-43D1-AE31-C1288CF4BAD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44A8F29C-AD5C-43D1-AE31-C1288CF4BAD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44A8F29C-AD5C-43D1-AE31-C1288CF4BAD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAB7294B-54D7-49FB-B238-B671701E1E62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAB7294B-54D7-49FB-B238-B671701E1E62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAB7294B-54D7-49FB-B238-B671701E1E62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAB7294B-54D7-49FB-B238-B671701E1E62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1DDFF4ED-F1F3-4B96-A1B0-79985E1962FF} = {DF48FE6F-81F9-49CF-A240-7B3BC5A5F604}
+		{090891BC-1713-40EA-9FBB-757EB5D7BE6D} = {DF48FE6F-81F9-49CF-A240-7B3BC5A5F604}
+		{BF2E80FF-2530-4862-B9DF-5E959EC472BE} = {DF48FE6F-81F9-49CF-A240-7B3BC5A5F604}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C9C1392-ABA6-4CDF-B85D-57C3EB58156C}
+	EndGlobalSection
+EndGlobal

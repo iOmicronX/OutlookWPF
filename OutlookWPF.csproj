@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Infragistics.WPF.OutlookBar.Trial" Version="22.2.19" />
+    <PackageReference Include="Infragistics.WPF.Ribbon.Trial" Version="22.2.19" />
+    <PackageReference Include="Infragistics.WPF.Themes.Fall.Trial" Version="22.2.19" />
+    <PackageReference Include="Infragistics.WPF.Themes.Office2010Blue.Trial" Version="22.2.19" />
+    <PackageReference Include="Infragistics.WPF.Themes.Office2013.Trial" Version="22.2.19" />
+    <PackageReference Include="Prism.Unity" Version="8.1.97" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Modules\OutlookWPF.Modules.Contacts\OutlookWPF.Modules.Contacts.csproj" />
+    <ProjectReference Include="..\Modules\OutlookWPF.Modules.Mail\OutlookWPF.Modules.Mail.csproj" />
+    <ProjectReference Include="..\OutlookWPF.Core\OutlookWPF.Core.csproj" />
+  </ItemGroup>
+</Project>
